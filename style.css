@@ -1,18 +1,19 @@
 body {
 	margin: 0;
-	padding: 50;
+	padding: 20px;
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 }
 
 .container {
-	max-width: 390px;
+	max-width: 350px;
 }
 
 .inner {
 	display: grid;
-	grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    
 
 }
 
@@ -43,6 +44,13 @@ body {
 
 .usercard {
 	text-align: center;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*
